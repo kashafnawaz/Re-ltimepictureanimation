@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\checkpoints",
+    "\\dataset",
+    "\\evaluation",
+    "\\evaluation\\test_filelists",
+    "\\face_detection",
+    "\\filelists",
+    "\\models"
+  ],
+  "SelectedNode": "\\evaluation\\test_filelists",
+  "PreviewInSolutionExplorer": false
+}
