@@ -1,0 +1,28 @@
+# Ignore model weights
+*.ckpt
+*.data-00000-of-00001
+*.index
+*.meta
+*.onnx
+*.pb
+*.npy
+*.pth
+
+# Ignore checkpoints
+**/checkpoint/
+
+# Ignore datasets
+**/dataset/
+
+# Ignore results and outputs
+**/results/
+**/outputs/
+**/video/
+**/val/
+
+# Ignore zip files
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
