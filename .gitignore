@@ -35,3 +35,4 @@ models/SadTalker/results_no_lipsync/
 models/AnimeGAN/
 models/SadTalker/AnimeGANv2-master/
 models/AnimeGANv2/.git
+Backend/gfpgan/
