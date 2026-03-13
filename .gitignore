@@ -1,28 +1,37 @@
-# Ignore model weights
-*.ckpt
-*.data-00000-of-00001
-*.index
-*.meta
-*.onnx
-*.pb
-*.npy
-*.pth
+# Virtual environments
+Backend/venv/
+models/SadTalker/sadtalker_env/
 
-# Ignore checkpoints
-**/checkpoint/
+# Model checkpoints (too large for GitHub)
+Backend/checkpoints/
+models/AnimeGANv2/checkpoint/
+models/AnimeGANv2/vgg19_weight/
 
-# Ignore datasets
-**/dataset/
+# Results and temp files
+Backend/results/
+Backend/temp/
+Backend/test_frames/
+Backend/test_output.mp4
+Backend/sample.mp4
+Backend/fix.py
 
-# Ignore results and outputs
-**/results/
-**/outputs/
-**/video/
-**/val/
-
-# Ignore zip files
-*.zip
+# Input files
+inputs/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Unnecessary files
+models/SadTalker/cd
+models/SadTalker/py
+models/SadTalker/input.jpg
+models/SadTalker/results_mamu/
+models/SadTalker/results_test/
+models/SadTalker/results_perfect/
+models/SadTalker/results_no_lips/
+models/SadTalker/results_no_lipsync/
+models/AnimeGAN/
+models/SadTalker/AnimeGANv2-master/
+models/AnimeGANv2/.git
